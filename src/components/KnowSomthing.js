@@ -8,23 +8,23 @@ const KnowSomthing = () => {
   return (
     <div className='somthing-container'>
      
-            <div class="row">
-                <div class="column">
-                <img data-aos="fade-down"
+            <div className="row">
+                <div className="column">
+                <img src={img1} alt="Loading" data-aos="fade-down"
      data-aos-easing="ease-in-sine"
-     data-aos-duration="1500" src={img1}/>
-                <img data-aos="fade-right"
+     data-aos-duration="1500" />
+                <img src={img2} alt="Loading" data-aos="fade-right"
    data-aos-easing="ease-in-sine"
     
-     data-aos-duration="1500" src={img2}/>
+     data-aos-duration="1500" />
                 </div>
-                <div class="column">
-                <img data-aos="fade-left"
+                <div className="column">
+                <img src={img3} alt="Loading" data-aos="fade-left"
      
      data-aos-easing="ease-in-sine"
-     data-aos-duration="1500" src={img3}/>
-                <img data-aos="fade-up"
-    data-aos-duration="1500" src={img4}/>
+     data-aos-duration="1500"/>
+                <img src={img4} alt="Loading" data-aos="fade-up"
+    data-aos-duration="1500"/>
             </div>
             
       </div>

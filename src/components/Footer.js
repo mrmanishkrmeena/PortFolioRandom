@@ -28,7 +28,7 @@ const Footer = () => {
         data-aos-duration="1000"
          className="inputbox">
           <input type="email" placeholder="Enter Your Email" width={150} />
-          <div class="wrapper">
+          <div className="wrapper">
             <a href="/" className="btnclass">
               subscribe
             </a>
@@ -43,22 +43,23 @@ const Footer = () => {
             </ul>
             <ul>
                 <h2>Important Links</h2>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/blogs">Blog</a></li>
+                <li><a href="/hobby">Hobby</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
             <ul>
             <h2>Featured Service</h2>
 
-                <li><a href="">Search Strategy</a></li>
-                <li><a href="">Social Marketing</a></li>
-                <li><a href="">Business Planning</a></li>
-                <li><a href="">Link Building</a></li>
-                <li><a href="">Report Analysis</a></li>
-                <li><a href="">CPA Marketing</a></li>
+                <li><a href="/services">Search Strategy</a></li>
+                <li><a href="/services">Social Marketing</a></li>
+                <li><a href="/services">Business Planning</a></li>
+                <li><a href="/services">Link Building</a></li>
+                <li><a href="/services">Report Analysis</a></li>
+                <li><a href="/services">CPA Marketing</a></li>
             </ul>
             <ul>
             <h2>Contact Me</h2>
@@ -76,9 +77,9 @@ const Footer = () => {
             
             <div className="footerbottomright">
                 <ul>
-                    <li><a href="">Terms Of Use</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Sitemap</a></li>
+                    <li><a href="/">Terms Of Use</a></li>
+                    <li><a href="/">Privacy Policy</a></li>
+                    <li><a href="/">Sitemap</a></li>
                 </ul>
             </div>
             <div className="socialicons">

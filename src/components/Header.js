@@ -12,19 +12,19 @@ const Header = () => {
       </div>
      <div className="inrtext" ><p>Nulla porttitor accumsan tincidunt. Pellentesque adipiscing elittortor eget felis porttitor volutpat.</p></div>
      <div className="inrtext">
-     <div class="wrapper">
+     <div className="wrapper">
   <a href="/" className='btnclass'>Know More !</a>
 </div>
-<img src={img1} width={450} alt="" />
+<img src={img1} width={450} alt="Loading" />
       </div>
       </div>
      <div 
      className="herosec herosec2">
       <img data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
-     data-aos-delay="50"
+  
      data-aos-offset="0"
-     data-aos-duration="2500" src={img2} alt="" />
+     data-aos-duration="2500" src={img2} alt="Loading" />
      </div>
 <div className="Socialmedia">
   <div className="SingleSocialm"><SingleSocialm logo={require("../assests/icons/mailchimp.png")} text1="Mail Chimp" text2="Send Emails"/>
