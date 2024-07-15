@@ -7,6 +7,7 @@ import Blogs from "../components/Blogs";
 import Footer from "../components/Footer";
 import Experienceimgs from "../components/Experienceimgs";
 import MHobbys from "../components/MHobbys";
+import ContactForm from "../components/ContactForm";
 
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
       <Testimonial/>
       <Blogs/>
       <MHobbys/>
+      <ContactForm/>
       <Footer/>
     </div>
   );

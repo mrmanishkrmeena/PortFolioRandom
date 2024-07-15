@@ -1,12 +1,15 @@
-import React from 'react'
-import HeadOnRoute from '../components/HeadOnRoute'
-import Footer from '../components/Footer'
+import React from 'react';
+import HeadOnRoute from '../components/HeadOnRoute';
+import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
+
 
 const Contact = () => {
   return (
     <div className='contact-page'>
       <HeadOnRoute routename="Contact Us"/>
-<h1>Contact Us</h1>
+
+      <ContactForm/>
       <Footer/>
     </div>
   )

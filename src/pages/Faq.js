@@ -11,8 +11,8 @@ const Faq = () => {
     <div>
       <HeadOnRoute routename="FAQ"/>
       <div className="intigretseo ">
-      <h1>Support Center</h1>
-      <p>
+      <h1 data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">Support Center</h1>
+      <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
       Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature From 45 BC, Making It Over 2000 Years Old. Richard McClintock.
       </p>
       <div className="serialofcards">

@@ -10,8 +10,14 @@ import img6 from "../assests/images/blog6.png"
 const Blogs = () => {
   return (
     <div className='blogs'>
-        <h1>Read My Latest Blog Post</h1>
-        <div className="blogs-main">
+        <h1
+        data-aos="zoom-in"
+        
+        data-aos-easing="ease-in-sine"
+        >Read My Latest Blog Post</h1>
+        <div data-aos="zoom-in-down"
+        data-aos-duration="2000"
+     className="blogs-main">
             <SingleBlog  className="blog" blogimage={img1} heading="Startup Marketing Solution For Owner" dateon="April 4, 2021" infor="Nulla porttitor accumsan tincidunt. Pellentesque adipiscing." link="/" />
             <SingleBlog className="blog" blogimage={img2} heading="Startup Marketing Solution For Owner" dateon="April 4, 2021" infor="Nulla porttitor accumsan tincidunt. Pellentesque adipiscing." link="/" />
             <SingleBlog className="blog" blogimage={img3} heading="Startup Marketing Solution For Owner" dateon="April 4, 2021" infor="Nulla porttitor accumsan tincidunt. Pellentesque adipiscing." link="/" />

@@ -4,7 +4,9 @@ import { MdOutlineWatchLater } from "react-icons/md";
 
 const SingleBlog = (props) => {
   return (
-    <div className='blog-box'>
+    <div className='blog-box' 
+    data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000"
+    >
       <div className="blog-img"> <img src={props.blogimage} alt=''/> </div>
       <div className="blog-content"> 
         <h2>{props.heading}</h2>

@@ -4,16 +4,28 @@ import LogoWithTextCard from './subcomponents/LogoWithTextCard'
 const MHobbys = () => {
   return (<div className="mhobbys">
     <div className="intigretseo">
-    <h1>What I Used To Do For Fun ?</h1>
+    <h1
+    data-aos="zoom-in"
+    data-aos-easing="ease-in-sine"
+    >What I Used To Do For Fun ?</h1>
 
-    <p>
+    <p 
+    data-aos="zoom-in-up"
+    // data-aos-delay="300"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-back"
+    >
       Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It
       Has Roots In A Piece Of Classical Latin Literature From 45 BC, Making It
       Over 2000 Years Old. Richard McClintock, A Latin Professor At
       Hampden-Sydney College In Virginia, Looked Up One Of The More Latin
       Words, Consectetur, From A Lorem Ipsum Passage
     </p>
-    <div className="serialofcards">
+    <div
+    data-aos="fade-up"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-sine"
+    className="serialofcards">
       <LogoWithTextCard
         logo={require("../assests/icons/cricket.jpeg")}
         heading="Playing Cricket"

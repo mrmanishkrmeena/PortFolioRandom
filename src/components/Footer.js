@@ -10,12 +10,23 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="signupnewsletter">
-        <h1>Sing Up To Newsletter</h1>
-        <h3>
+        <h1
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+
+        data-aos-easing="ease-in-sine"
+        >Sing Up To Newsletter</h1>
+        <h3  data-aos="zoom-in"
+        data-aos-delay="500"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-sine">
          
           Receice Latest News, Updates, And Many Other Things Every Week.{" "}
         </h3>
-        <div className="inputbox">
+        <div data-aos="zoom-in-up"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+         className="inputbox">
           <input type="email" placeholder="Enter Your Email" width={150} />
           <div class="wrapper">
             <a href="/" className="btnclass">
