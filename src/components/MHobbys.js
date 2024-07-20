@@ -12,7 +12,7 @@ const MHobbys = () => {
     <p 
     data-aos="zoom-in-up"
     // data-aos-delay="300"
-    data-aos-duration="2000"
+    data-aos-duration="1000"
     data-aos-easing="ease-in-back"
     >
       Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It
@@ -23,7 +23,7 @@ const MHobbys = () => {
     </p>
     <div
     data-aos="fade-up"
-    data-aos-duration="2000"
+    data-aos-duration="1000"
     data-aos-easing="ease-in-sine"
     className="serialofcards">
       <LogoWithTextCard

@@ -15,6 +15,7 @@ import Faq from "./pages/Faq";
 import Hobby from "./pages/Hobby";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
 
   return (
     <Router>
+    <ScrollToTop/>
       {/* <Navbar /> */}
       <NavbarHook />
       <main className="main-content">
