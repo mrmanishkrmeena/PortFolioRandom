@@ -24,7 +24,7 @@ const Header = () => {
      data-aos-easing="ease-in-back"
   
      data-aos-offset="0"
-     data-aos-duration="2500" src={img2} alt="Loading" />
+     data-aos-duration="1500" src={img2} alt="Loading" />
      </div>
 <div className="Socialmedia">
   <div className="SingleSocialm"><SingleSocialm logo={require("../assests/icons/mailchimp.png")} text1="Mail Chimp" text2="Send Emails"/>

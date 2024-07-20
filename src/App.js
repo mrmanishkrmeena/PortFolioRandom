@@ -4,7 +4,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+// eslint-disable-next-line
 import Navbar from "./components/Navbar/Navbar";
 import NavbarHook from "./components/NavbarHook/NavbarHook";
 import Home from "./pages/Home";

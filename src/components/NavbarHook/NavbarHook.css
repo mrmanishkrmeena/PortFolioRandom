@@ -3,7 +3,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color:rgba(178, 177, 177, 0.489);
+  background-color:rgb(228, 226, 226);
   z-index: var(--z-fixed);
 }
 
@@ -93,11 +93,13 @@
   font-weight: var(--font-semi-bold);
   transition: color 0.4s;
   font-size: larger;
+  text-shadow: 4px 4px 5px rgb(254, 255, 253);
+
 }
 
 .nav__link:hover {
   color: var(--text-color) !important;
-  text-shadow: 5px 5px 4px rgb(25, 176, 5);
+  text-shadow: 5px 5px 4px rgba(40, 50, 38, 0.345);
 }
 
 .nav__close {
